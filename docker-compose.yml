@@ -4,3 +4,9 @@ iruby-notebook:
     - 8888:8888
   volumes:
     - ./notebooks:/notebooks
+datascience-cv-notebook:
+  image: izumin5210/datascience-cv-notebook
+  ports:
+    - 8888:8888
+  volumes:
+    - ./notebooks:/notebooks
