@@ -10,3 +10,9 @@ datascience-cv-notebook:
     - 8888:8888
   volumes:
     - ./notebooks:/notebooks
+tensorflow:
+  image: gcr.io/tensorflow/tensorflow
+  ports:
+    - 8888:8888
+  volumes:
+    - ./notebooks:/notebooks
