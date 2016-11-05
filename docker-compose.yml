@@ -4,15 +4,21 @@ iruby-notebook:
     - 8888:8888
   volumes:
     - ./notebooks:/notebooks
+    - ./.local:/home/jovyan/.local
+    - ./.jupyter/nbconfig:/home/jovyan/.jupyter/nbconfig
 datascience-cv-notebook:
   image: izumin5210/datascience-cv-notebook
   ports:
     - 8888:8888
   volumes:
     - ./notebooks:/notebooks
+    - ./.local:/home/jovyan/.local
+    - ./.jupyter/nbconfig:/home/jovyan/.jupyter/nbconfig
 tensorflow:
   image: gcr.io/tensorflow/tensorflow
   ports:
     - 8888:8888
   volumes:
     - ./notebooks:/notebooks
+    - ./.local:/home/jovyan/.local
+    - ./.jupyter/nbconfig:/home/jovyan/.jupyter/nbconfig
