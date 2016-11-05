@@ -3,3 +3,9 @@
 ### IPythonNotebook ###
 # Temporary data
 .ipynb_checkpoints/
+
+
+### misc ###
+!.local/share/jupyter
+.local/share/jupyter/*
+!.local/share/jupyter/nbextensions/
