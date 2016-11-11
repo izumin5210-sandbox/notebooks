@@ -7,7 +7,7 @@ iruby-notebook:
     - ./.local:/home/jovyan/.local
     - ./.jupyter/nbconfig:/home/jovyan/.jupyter/nbconfig
 datascience-cv-notebook:
-  image: izumin5210/datascience-cv-notebook
+  image: izumin5210/datascience-cv-notebook:1.0
   ports:
     - 8888:8888
   volumes:
